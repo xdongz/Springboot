@@ -16,7 +16,7 @@ public class HelloController {
     return car;
   }
 
-  @RequestMapping("/hello")
+  @RequestMapping("/photo.jpg")
   public String handle01() {
     return "Hello, Spring Boot 2!";
   }
